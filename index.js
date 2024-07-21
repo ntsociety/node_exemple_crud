@@ -4,7 +4,7 @@ const app = express();
 const Product = require("./models/product.models.js");
 const productRoute = require("./routes/product.routes.js");
 const uri =
-  "mongodb+srv://webdeveloppeurfr:MongoDBAccount228@cluster0.k4sojdm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://user:password@cluster0.k4sojdm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 // middleware
 app.use(express.json());
@@ -31,4 +31,4 @@ mongoose
     console.log(e);
   });
 
-//   MongoDBAccount228
+//
